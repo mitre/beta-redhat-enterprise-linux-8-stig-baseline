@@ -14,23 +14,23 @@ depends:
 
 inputs:
 
-  # SV-230368
-  - name: min_reuse_generations
-    description: Number of reuse generations
-    type: Numeric
-    value: 2
-    profile: redhat-enterprise-linux-8-stig-baseline
+  # # SV-230368
+  # - name: min_reuse_generations
+  #   description: Number of reuse generations
+  #   type: Numeric
+  #   value: 2
+  #   profile: redhat-enterprise-linux-8-stig-baseline
 
-  # SV-230369, SV-230370
-  - name: min_len
-    description: Minimum number of characters for a new password
-    type: Numeric
-    value: 32
-    profile: redhat-enterprise-linux-8-stig-baseline
+  # # SV-230369, SV-230370
+  # - name: min_len
+  #   description: Minimum number of characters for a new password
+  #   type: Numeric
+  #   value: 32
+  #   profile: redhat-enterprise-linux-8-stig-baseline
 
-  #SV-230353
-  - name: system_inactivity_timeout
-    description: Maximum system inactivity timeout (time in seconds).
-    type: Numeric
-    value: 1200
-    profile: redhat-enterprise-linux-8-stig-baseline
+  # #SV-230353
+  # - name: system_inactivity_timeout
+  #   description: Maximum system inactivity timeout (time in seconds).
+  #   type: Numeric
+  #   value: 1200
+  #   profile: redhat-enterprise-linux-8-stig-baseline
